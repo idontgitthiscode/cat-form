@@ -1,0 +1,152 @@
+/*++++++++++++++++++++++++++++++++++++++++++ General-Sytle ++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+body {
+  background: #2e4052;
+  color: #f1faee;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+h1 {
+  width: 1200px;
+  max-width: 85%;
+  margin: 15px auto 15px auto;
+  font-size: 50px;
+}
+
+h2{
+   font-size: 33px;
+}
+
+p{
+  font-size: 18px;
+  text-align: center;
+}
+
+#brownbox {
+  margin: auto;
+  max-width: 85%;
+  width: 1200px;
+  height: auto;
+  padding: 10px;
+  background: #776871;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  }
+
+@media (max-width: 1000px){
+  #brownbox {
+    flex-flow: column;
+  }
+  p {
+    align: center;
+  }
+
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++ Description ++++++++++++++++++++++++++++++++++++++++++++++++ */
+#cat {
+  max-width: 85%;
+  border-radius: 5px;
+}
+
+#description {
+   padding: 0 15% 0 15%;
+}
+
+#description-box {
+  padding: 0px 15px 0 15px;
+  background: #544E61;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+
+#description-box h2 {
+   padding: 0 15% 0 15%;
+    text-align: center;
+}
+
+@media (max-width: 400px){
+  #description-box h2{
+    padding: 0 5% 0 5%;
+    font-size: 25px;
+  }
+  #description {
+    padding: 0 5% 0 5%;
+    align: center;
+  }
+
+}
+/*++++++++++++++++++++++++++++++++++++++++++ Form ++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#survey-form {
+  min-width: 50%;
+  padding: 0px 15px 0 15px;
+  background: ;
+  display: flex;
+  flex-flow: column;
+  font-size: 20px;
+  justify-content: space-evenly;
+}
+
+.form-style-wrap {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #ffe8d6;
+  color: #540b0e;
+  font-size: 14px;
+}
+
+#number-label{
+  margin-top: 8px;
+}
+
+#radio-head {
+  margin: 8px 0 8px;
+
+}
+
+#survey-form p {
+  text-align: left;
+  font-size: 20px;
+  margin: 8px 0;
+
+}
+
+#survey-form h2 {
+ margin: 5px 0;
+ text-align: right;
+}
+
+#dropdown {
+ width: 100%;
+}
+
+#comments {
+ width: 100%;
+ font-family: 'Akaya Kanadaka', cursive;
+ color: #540b0e;
+ font-size: 20px;
+}
+
+#submit{
+    width: 100%;
+    background:  #540b0e;
+    color: #ffe8d6;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-family: 'Akaya Kanadaka', cursive;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ #submit:hover {
+    background: rgba(84,11,14, 0.85);
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="CSS\main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img\favicon.ico" alt="Spider-Web">
+
+  <title>Cat-Form</title>
+</head>
+
+<body>
+  <main>
+
+    <!--+++++++++++++++++++++++++++++++++++++++ Title ++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <h1 id="title"> Contact</h1>
+
+    <!--+++++++++++++++++++++++++++++++++++++++ CONTENT AREA +++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <div id="brownbox">
+
+      <!--+++++++++++++++++++++++++++++++++++++++ DESCRIPTION +++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <div id="description-box">
+        <h2>Let's make an Apointment !</h2>
+        <img id="cat" src=https://study-psychology.com/wp-content/uploads/2021/02/Pet-Lover-Cat.svg alt="girl holding a cat">
+        <p id="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+          clita kasd gubergren, no sea takimata.</p>
+      </div>
+
+      <!--+++++++++++++++++++++++++++++++++++++++ FORM ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+      <form id="survey-form">
+        <h2>Catform</h2>
+
+
+        <!--+++++++++++++++++++++++++++++++++++++++ NAME ++++++++++++++++++++++++++++++++ +++++++++++++ -->
+
+
+        <label for="name">Name:</label>
+        <input class="form-style-wrap" type="text" name="name" id="name" placeholder="Tom Chang" required="">
+
+
+        <!--+++++++++++++++++++++++++++++++++++++++ CATNAME ++++++++++++++++++++++++++++++++ +++++++++++++ -->
+
+        <label id="name-label" for="cat-name">Your Cat's Name:</label>
+        <input class="form-style-wrap" type="text" name="name" id="cat-name" placeholder="Frank" required="">
+
+
+        <!--+++++++++++++++++++++++++++++++++++++++ E-MAIL ++++++++++++++++++++++++++++++++ +++++++++++++ -->
+
+        <label id="email-label" for="email">E-Mail:</label>
+        <input class="form-style-wrap" type="email" name="email" id="email" placeholder="sexychangi@yahoo.com " required="">
+
+        <!--+++++++++++++++++++++++++++++++++++++++ DATE ++++++++++++++++++++++++++++++++ +++++++++++++ -->
+
+        <label for="date">Desired date:</label>
+        <input class="form-style-wrap" id="date" type="datetime-local" placeholder="sexychangi@yahoo.com">
+
+        <!--+++++++++++++++++++++++++++++++++++++++ CHECKBOX ++++++++++++++++++++++++++++++++ +++++++++++++ -->
+        <div>
+          <p>My Cat had surgeries:</p>
+          <input name="surgerie" value="cut" type="checkbox">
+          <label for="checkbox">Castration</label><br>
+          <input name="surgerie" value="tat" type="checkbox">
+          <label for="checkbox">Tatto</label><br>
+        </div>
+
+        <!--+++++++++++++++++++++++++++++++++++++++ NUMBER ++++++++++++++++++++++++++++++++ +++++++++++ -->
+        <label id="number-label" for="number">How old is your Cat?:</label>
+        <input class="form-style-wrap" id="number" type="number" placeholder="7" min="0" max="38">
+
+        <!--+++++++++++++++++++++++++++++++++++++++ RADIO ++++++++++++++++++++++++++++++++ +++++++++++++ -->
+        <div>
+          <div id="radio-head">
+            <p>Do you got a Pet insurance?</p>
+            <input type="radio" id="insurance" name="insurance" value="insurance">
+            <label for="insurance">I got an insurance</label>
+            <br>
+            <input type="radio" id="noinsurance" name="insurance" value="noinsurance">
+            <label for="noinsurance">My cat is NOT insured</label>
+          </div>
+
+          <!--+++++++++++++++++++++++++++++++++++++++ SELECT ++++++++++++++++++++++++++++ +++++++++++++ -->
+
+          <label for="breed">Which breed is your cat?</label><br>
+          <select class="form-style-wrap" id="dropdown" name="breed" required>
+            <option value="btsh">British Shorthair</option>
+            <option value="mc">Maine Coon</option>
+            <option value="pc">Persian cat</option>
+            <option value="sic">Siamese cat</option>
+            <option value="sxc">Sphynx cat</option>
+            <option value="bc">Bengal cat</option>
+            <option value="sfo">Scottish Fold</option>
+            <option value="rb">Russian Blue</option>
+            <option value="none">Not on this List</option>
+          </select>
+
+          <!--+++++++++++++++++++++++++++++++++++++++ TEXT ++++++++++++++++++++++++++++ +++++++++++++ -->
+
+          <label for="textarea">Anything else we need to know?</label><br>
+          <textarea class="form-style-wrap" id="comments" name="text" placeholder="Leave us a comment..."></textarea>
+
+
+
+
+          <!--+++++++++++++++++++++++++++++++++++++++ SUBMIT ++++++++++++++++++++++++++++ +++++++++++++ -->
+          <input id="submit" class="form-style-wrap" type="submit" value="Request appointment now!">
+
+
+      </form>
+
+    </div>
+  </main>
+</body>
+
+</html>
